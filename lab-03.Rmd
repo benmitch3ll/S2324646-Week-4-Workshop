@@ -12,8 +12,7 @@ output: html_document
 library(tidyverse) 
 ```
 
-
-```{r reading-nobel-data, message = FALSE}
+```{r load-data, message = FALSE}
 nobel <- read_csv("data/nobel.csv")
 ```
 
